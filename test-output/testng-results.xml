@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-02-28T14:01:50 IST" name="Default suite" finished-at="2023-02-28T14:01:59 IST" duration-ms="9106">
+    <groups>
+    </groups>
+    <test started-at="2023-02-28T14:01:50 IST" name="Default test" finished-at="2023-02-28T14:01:59 IST" duration-ms="9106">
+      <class name="testscripts.FourthTest">
+        <test-method is-config="true" signature="classConfiguration()[pri:0, instance:testscripts.FourthTest@485966cc]" started-at="2023-02-28T14:01:50 IST" name="classConfiguration" finished-at="2023-02-28T14:01:50 IST" duration-ms="670" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- classConfiguration -->
+        <test-method is-config="true" signature="methodConfiguration()[pri:0, instance:testscripts.FourthTest@485966cc]" started-at="2023-02-28T14:01:50 IST" name="methodConfiguration" finished-at="2023-02-28T14:01:53 IST" duration-ms="2812" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- methodConfiguration -->
+        <test-method signature="fourthTest()[pri:0, instance:testscripts.FourthTest@485966cc]" started-at="2023-02-28T14:01:53 IST" name="fourthTest" finished-at="2023-02-28T14:01:58 IST" duration-ms="5332" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fourthTest -->
+        <test-method is-config="true" signature="methodTeardown()[pri:0, instance:testscripts.FourthTest@485966cc]" started-at="2023-02-28T14:01:58 IST" name="methodTeardown" finished-at="2023-02-28T14:01:59 IST" duration-ms="257" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- methodTeardown -->
+        <test-method is-config="true" signature="classTeardown()[pri:0, instance:testscripts.FourthTest@485966cc]" started-at="2023-02-28T14:01:59 IST" name="classTeardown" finished-at="2023-02-28T14:01:59 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- classTeardown -->
+      </class> <!-- testscripts.FourthTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
