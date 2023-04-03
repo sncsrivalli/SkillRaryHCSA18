@@ -4,6 +4,7 @@ import java.io.File;
 import java.io.IOException;
 import java.time.Duration;
 import java.util.Set;
+import java.util.concurrent.TimeUnit;
 
 import org.apache.commons.io.FileUtils;
 import org.openqa.selenium.JavascriptExecutor;
@@ -46,7 +47,7 @@ public class WebDriverUtility {
 		}
 		driver.manage().window().maximize();
 		driver.get(url);
-		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(time));
+		driver.manage().timeouts().implicitlyWait(time,TimeUnit.SECONDS);
 		
 		return driver;
 	}
@@ -59,7 +60,7 @@ public class WebDriverUtility {
 	 */
 	public WebElement explicitWait(WebElement element, long time) {
 		
-		WebDriverWait wait = new WebDriverWait(driver,Duration.ofSeconds(time));
+		WebDriverWait wait = new WebDriverWait(driver,time);
 		return wait.until(ExpectedConditions.visibilityOf(element));
 	}
 	
